@@ -10,6 +10,7 @@ No other installation is necessary.
 
 ## Usage
 
+The application uses a realtime API to obtain weather information for a location inputted by the user.  The website application was designed to meet the following requirements:
 
 ### User Story
 AS A traveler
@@ -48,4 +49,5 @@ to discuss what you would like to change.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
