@@ -1,9 +1,10 @@
 # Weather-App
 
+This project was designed to use a weather API to fetch data and display both the current and 5 day forecast.  
 
 ## Installation
 
- 
+The Weather App can be accessed by visiting https://chwd31.github.io/Weather-App/  
 
 No other installation is necessary.
 
@@ -38,6 +39,8 @@ Screenshot of how site should appear in browser.
 
 
 ## Contributing
+
+The weather API used in the application - Open Weather API, which can be accessed at https://openweathermap.org/api 
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
