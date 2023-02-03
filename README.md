@@ -29,6 +29,8 @@ THEN I am again presented with current and future conditions for that city
 
 ### Image of Site
 
+![Screenshot 2023-02-03 at 1 22 33 PM](https://user-images.githubusercontent.com/118683737/216689628-2c42aab3-08e0-4360-bc37-69080fb3690b.png)
+
   
 Screenshot of how site should appear in browser.
 
