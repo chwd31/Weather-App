@@ -39,6 +39,7 @@ weatherSubmitButton.addEventListener('click', function (event) {
 
 
 function fetchWeather(location) {
+    localStorage.setItem('location', location)
 
     var currentWeatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=f1a479242bf82155102f6a4e2318dacd&units=imperial`;
 
@@ -100,6 +101,14 @@ function fetchWeather(location) {
         });
     return "Weather info";
 }
+
+window.addEventListener('load', function() {
+    var savedLocation = localStorage.getItem('location');
+    if (savedLocation) {
+        weatherInput.value = savedLocation;
+        fetchWeather(savedLocation);
+    }
+});
 
 
 
